@@ -8,7 +8,10 @@
             "email": "anaselalamikh@gmail.com"
         }
     ],
-    "require": {},
+   "minimum-stability": "stable",
+   "require": {
+    "illuminate/support": "^5.5"
+   },
     "autoload": {
         "psr-4": {
             "Khofo\\":"src/"
